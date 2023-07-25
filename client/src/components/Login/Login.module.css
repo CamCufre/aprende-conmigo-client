@@ -1,0 +1,61 @@
+.container {
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 1.5em;
+    right: 8%;
+}
+
+.greet {
+    position: fixed;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 1.2vw;
+    text-align: right;
+    margin: 0%;
+    margin-right: 65px;
+}
+
+.icon {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.logout {
+    position: fixed;
+    right: 30px;
+    top: 10%;
+}
+
+.panel {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    right: 3.5%;
+    top: 11%;
+    box-shadow: 0px 5px 10px rgba(37, 37, 37, 0.294);
+}
+
+.botones {
+    color: black;
+    margin: 0%;
+    padding: 10px;
+}
+
+.botones:hover {
+    background-color: rgb(35, 128, 211);
+    color:white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}

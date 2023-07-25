@@ -1,0 +1,35 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 5em;
+   padding-bottom: 5%;
+   padding-top: 5%;
+ }
+
+ .body{
+  min-height: 100vh;
+ }
+
+ .busqueda {
+   margin: 0%;
+   margin-top: 3%;
+   z-index: 0;
+ }
+
+ .titulo {
+  color: white;
+ }
+
+ .contenedorBusqueda {
+  background-color: transparent;
+  padding: 1%;
+  padding-top: 1.2%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  margin-top: -5%;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+ }

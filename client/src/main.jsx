@@ -5,9 +5,10 @@ import store from './Redux/store';
 import App from './App';
 import './index.css';
 import axios from 'axios';
+port = process.env.PORT
 
 // axios.defaults.baseURL = `http://localhost:3001`;
-axios.defaults.baseURL = `https://aprender-conmig-server-production.up.railway.app:3001`;
+axios.defaults.baseURL = `https://aprender-conmig-server-production.up.railway.app:${port}`;
 
 ReactDOM.createRoot(
   document.getElementById('root')

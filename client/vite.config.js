@@ -6,6 +6,8 @@ export default defineConfig({
   plugins: [react()],
   alias: {
     'react-router-dom': 'react-router-dom@^6.14.1'
+  },
+  server: {
+    host: '0.0.0.0'
   }
-})
-
+});

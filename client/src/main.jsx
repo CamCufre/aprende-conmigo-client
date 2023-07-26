@@ -7,7 +7,7 @@ import './index.css';
 import axios from 'axios';
 
 // axios.defaults.baseURL = `http://localhost:3001`;
-axios.defaults.baseURL = `https://aprender-conmig-server-production.up.railway.app:3001`;
+axios.defaults.baseURL = `https://aprender-conmig-server-production.up.railway.app`;
 
 ReactDOM.createRoot(
   document.getElementById('root')

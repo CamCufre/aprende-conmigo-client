@@ -4,6 +4,9 @@ import { Provider } from 'react-redux';
 import store from './Redux/store';
 import App from './App';
 import './index.css';
+import axios from 'axios';
+
+axios.defaults.baseURL = `https://aprender-conmig-server-production.up.railway.app/`
 
 ReactDOM.createRoot(
   document.getElementById('root')

@@ -84,14 +84,14 @@ function GeneralFilters({ filtro, setFiltro, lesson, setLesson, setPrecio, preci
         onChange={handleSelect}
         options={sortOptions}
         isSearchable
-        placeholder="Busca por materia"
+        placeholder="Busca una materia..."
       />
       <Select
       className={style.select}
       value={selectedPrecio}
       onChange={handlePrecio}
       options={optionPrecio}
-      placeholder="Ordenar por precio"
+      placeholder="Ordenar por precio..."
       />
       <button id='materia' onClick={handleReset}>Mostrar todo</button>
     </div>
